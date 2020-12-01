@@ -1,7 +1,14 @@
 import '../styles/App.css';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
 function App() {
-  return <h1>Hi Guys</h1>;
+  return (
+    <>
+      <Display solution="34" />
+      <ButtonPanel />
+    </>
+  );
 }
 
 export default App;
