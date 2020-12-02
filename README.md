@@ -1,4 +1,4 @@
-## Calculator by Rails
+## React Calculator
   This a custom implementation of a calculator web app for Math-magicians Inc.
 
 ## Live version

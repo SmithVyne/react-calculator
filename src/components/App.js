@@ -1,10 +1,12 @@
+import React, { Component } from 'react';
 import '../styles/App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calcuate from '../logic/calculate';
 
-class App {
-  constructor() {
+class App extends Component {
+  constructor(props) {
+    super(props);
     this.state = {
       total: null,
       next: null,
