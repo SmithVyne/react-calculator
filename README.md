@@ -23,7 +23,7 @@ or any other port randomly available to React.
 
 - Github: [@SmithVyne](https://github.com/SmithVyne)
 - Twitter: [@SmithVyne](https://twitter.com/SmithVyne)
-- Email: [email me](smithnkereuwem2@gmail.com)
+- Email: [email me](mailto:smithnkereuwem2@gmail.com)
 
 ## Show your support
 
