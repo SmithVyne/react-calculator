@@ -16,12 +16,12 @@ const operate = ({ total: numberOne, next: numberTwo, operation }) => {
   } else if (operation === '%') {
     result = inputB.div(100);
   } else if (operation === '+/-') {
-    result = inputA.times(-1);
+    result = inputB.times(-1);
   } else {
     result = 0;
   }
 
-  return result;
+  return result.toString();
 };
 
 export default operate;

@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types';
 
-function Display({ solution }) {
+function Display({ total }) {
   return (
     <div>
-      {solution}
+      {total}
     </div>
   );
 }
 
 Display.defaultProps = {
-  solution: '0',
+  total: '0',
 };
 
 Display.propTypes = {
-  solution: PropTypes.string,
+  total: PropTypes.string,
 };
 
 export default Display;
