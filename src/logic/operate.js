@@ -13,10 +13,6 @@ const operate = ({ total: numberOne, next: numberTwo, operation }) => {
     result = inputA.times(inputB);
   } else if (operation === '÷') {
     result = inputA.div(inputB);
-  } else if (operation === '%') {
-    result = inputB.div(100);
-  } else if (operation === '+/-') {
-    result = inputB.times(-1);
   } else {
     result = 0;
   }
