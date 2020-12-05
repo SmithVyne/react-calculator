@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calcuate from '../logic/calculate';
+import '../styles/App.css';
 
 class App extends Component {
   constructor(props) {
@@ -11,6 +11,7 @@ class App extends Component {
       total: null,
       next: null,
       operation: null,
+      toDisplay: '0',
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -21,11 +22,13 @@ class App extends Component {
   }
 
   render() {
+    const { toDisplay } = this.state;
     return (
-      <>
-        <Display solution="34" />
-        <ButtonPanel />
-      </>
+      <div className="app">
+        <h1>React Calculator</h1>
+        <Display solution={toDisplay} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </div>
     );
   }
 }
