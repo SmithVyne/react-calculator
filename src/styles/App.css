@@ -22,7 +22,7 @@ h1 {
   border-radius: 5px;
   font-family: monospace;
   padding: 20px;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 button {
