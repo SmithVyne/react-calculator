@@ -25,7 +25,6 @@ class Calculator extends Component {
     const { toDisplay } = this.state;
     return (
       <div className="app">
-        <h1>React Calculator</h1>
         <Display solution={toDisplay} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
