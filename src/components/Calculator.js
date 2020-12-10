@@ -24,10 +24,13 @@ class Calculator extends Component {
   render() {
     const { toDisplay } = this.state;
     return (
-      <div className="app">
-        <Display solution={toDisplay} />
-        <ButtonPanel clickHandler={this.handleClick} />
-      </div>
+      <>
+        <p>{'Let\'s do some math!'}</p>
+        <div className="app">
+          <Display solution={toDisplay} />
+          <ButtonPanel clickHandler={this.handleClick} />
+        </div>
+      </>
     );
   }
 }
