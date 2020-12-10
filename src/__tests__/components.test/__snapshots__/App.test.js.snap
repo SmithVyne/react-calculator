@@ -3,6 +3,11 @@
 exports[`it displays the website it updates the dom when calculator is clicked 1`] = `
 <main>
   <div
+    class="calcuText"
+  >
+    Let's do some math!
+  </div>
+  <div
     class="app"
   >
     <div
