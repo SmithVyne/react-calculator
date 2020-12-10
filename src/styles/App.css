@@ -19,7 +19,9 @@ nav {
 
 #nav-menu {
   display: flex;
+
   /* width: 205px; */
+
   /* min-width: 220px; */
   justify-content: space-between;
   font-size: 23px;
