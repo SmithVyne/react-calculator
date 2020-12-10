@@ -1,7 +1,12 @@
+.calcuText {
+  font-size: 30px;
+}
+
 .app {
   width: 700px;
   min-width: 300px;
   height: max-content;
+  float: right;
 }
 
 h1 {

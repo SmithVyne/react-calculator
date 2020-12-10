@@ -25,7 +25,7 @@ class Calculator extends Component {
     const { toDisplay } = this.state;
     return (
       <>
-        <p>{'Let\'s do some math!'}</p>
+        <div className="calcuText">{'Let\'s do some math!'}</div>
         <div className="app">
           <Display solution={toDisplay} />
           <ButtonPanel clickHandler={this.handleClick} />
