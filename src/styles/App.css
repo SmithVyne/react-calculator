@@ -1,58 +1,33 @@
-.app {
-  width: 700px;
-  min-width: 300px;
-  height: max-content;
-}
-
-h1 {
-  text-align: center;
-  color: #ececec;
-
-  /* font-family: ; */
-}
-
-.display {
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 80px;
   width: 100%;
-  height: 100px;
-  background: black;
-  color: #ececec;
-  font-size: 40px;
+  padding: 17px;
+  background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  border-radius: 5px;
-  font-family: monospace;
-  padding: 20px;
-  overflow: hidden;
+  z-index: 1;
 }
 
-button {
-  font-size: 22px;
-  font-weight: bold;
-  border: 1px solid grey;
-  border-radius: 5px;
+#logo {
+  margin-right: auto;
+  color: #000;
+  font-size: 50px;
 }
 
-button:hover {
-  background: #e2dcdc;
+#nav-menu {
+  display: flex;
+
+  /* width: 205px; */
+
+  /* min-width: 220px; */
+  justify-content: space-between;
+  font-size: 23px;
+  color: black;
 }
 
-.topButtons,
-.buttomButtons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 100px;
-}
-
-.buttomButtons {
-  grid-template-columns: 2fr 1fr 1fr;
-}
-
-.orangeBg {
-  background-color: rgb(231, 128, 44);
-  border: 1px solid rgb(211, 198, 198);
-}
-
-.orangeBg:hover {
-  background-color: #d46001;
+a.nav-links {
+  color: rgb(64, 28, 165);
 }

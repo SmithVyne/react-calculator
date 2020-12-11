@@ -19,6 +19,9 @@ Follow the steps below to test the project locally. First ensure you have a vers
 4. Run `npm start` to compile  and serve a development build live on `http://localhost:3000` 
 or any other port randomly available to React.
 
+## Testing
+1. In the root directory of the project run `npm test` command to run all tests
+
 👤 **Smith Nkereuwem**
 
 - Github: [@SmithVyne](https://github.com/SmithVyne)

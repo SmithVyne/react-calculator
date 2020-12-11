@@ -1,36 +1,17 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(58, 55, 55);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  font-family: cursive;
   height: 100vh;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+  color: black;
+  padding: 17px;
+  padding-top: 80px;
 }
